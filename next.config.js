@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Lệnh này giúp biến Next.js thành web tĩnh để chạy trên GitHub
+  output: 'export',
+  basePath: '/shop-nong-nghiep-xanh', // Bắt buộc phải có dòng này để khớp với tên repository
   images: {
     unoptimized: true,
   },
